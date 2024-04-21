@@ -1,4 +1,4 @@
-document.addEventListener('DOMContentLoaded', function() {
+
     const input1 = document.getElementById('input1');
     const input2 = document.getElementById('input2');
     const errorMessage = document.getElementById('error-message');
@@ -22,4 +22,3 @@ document.addEventListener('DOMContentLoaded', function() {
     // Attach event listeners to both inputs
     input1.addEventListener('input', compareNumbers);
     input2.addEventListener('input', compareNumbers);
-});
